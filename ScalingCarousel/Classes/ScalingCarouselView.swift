@@ -172,7 +172,7 @@ open class ScalingCarouselView: UICollectionView {
      disable the invisible scroller.
     */
     public func toggleInvisibleScrolling(_ toggle: Bool) {
-        self.invisibleScrollView = toggle
+        self.invisibleScrollView.isScrollEnabled = toggle
     }
 }
 
